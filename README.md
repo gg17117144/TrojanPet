@@ -1,4 +1,4 @@
-### Trojan Pet 🎠
+# Trojan Pet 🎠
 - A prank-style Windows desktop pet application that unleashes a cute little ant crawling freely on the screen — perfect for adding a bit of chaos to your friend’s computer!✨
 
 [中文](https://github.com/gg17117144/TrojanPet/blob/main/README-zh.md) [English](https://github.com/gg17117144/TrojanPet/blob/main/README.md) [日文](https://github.com/gg17117144/TrojanPet/blob/main/README-ja.md)
@@ -19,6 +19,10 @@
 - Add interactive features (click, drag, etc.)
 - Improve animation and behavior logic
 - More automated startup and stealth display options
+
+### English - Assets & Required Packages
+- Ant model ⇒ https://sketchfab.com/3d-models/walking-ant-dcf15f34876e4a90bd0ad67ef55fb9fe
+- Unity Windows control package ⇒ https://github.com/kirurobo/UniWindowController
 
 ### Installation & Usage
 - Download the latest version from the Releases page

@@ -21,6 +21,10 @@
 - 強化動畫與行為邏輯
 - 更自動化的啟動軟體並更隱瞞的呈現
 
+### 素材及所需套件
+- 螞蟻模型 => https://sketchfab.com/3d-models/walking-ant-dcf15f34876e4a90bd0ad67ef55fb9fe
+- unity控制windows套件 => https://github.com/kirurobo/UniWindowController
+
 ### 安裝與使用
 - 從 Release 頁面下載最新版本
 - 解壓縮後執行主程式

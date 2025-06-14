@@ -1,4 +1,4 @@
-### トロイのペット (Trojan Pet)  🎠
+# トロイのペット (Trojan Pet)  🎠
 - Windows 向けのいたずら系デスクトップペットアプリです。かわいいアリがあなたの画面上を自由に歩き回り、友達のパソコンにちょっとした混乱と楽しさをもたらします！✨
 
 [中文](https://github.com/gg17117144/TrojanPet/blob/main/README-zh.md) [English](https://github.com/gg17117144/TrojanPet/blob/main/README.md) [日文](https://github.com/gg17117144/TrojanPet/blob/main/README-ja.md)
@@ -19,6 +19,10 @@
 - インタラクション機能（クリック、ドラッグなど）の追加
 - アニメーションと行動ロジックの強化
 - より自動化された起動、よりステルスな表示方式
+
+### 日本語 - 素材および必要パッケージ
+- アリのモデル ⇒ https://sketchfab.com/3d-models/walking-ant-dcf15f34876e4a90bd0ad67ef55fb9fe
+- Unity 用の Windows 制御パッケージ ⇒ https://github.com/kirurobo/UniWindowController
 
 ### インストールと使い方
 - Releases ページから最新版をダウンロード

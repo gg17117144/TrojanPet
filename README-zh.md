@@ -1,6 +1,8 @@
 # 假木馬桌寵 (Trojan Pet)
 - 一款 Windows 桌面整人寵物應用，讓可愛的小螞蟻在你的螢幕上自由爬行，為你朋友的電腦增添一點趣味！
 
+[中文](https://github.com/gg17117144/TrojanPet/blob/main/README-zh.md) [English](https://github.com/gg17117144/TrojanPet/blob/main/README.md) [日文](https://github.com/gg17117144/TrojanPet/blob/main/README-ja.md)
+
 ### 功能介紹 
 - 螞蟻角色登場 
 - 基本走路與閒置（Idle）動畫狀態 

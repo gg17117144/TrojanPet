@@ -22,9 +22,10 @@ namespace unityWindowsControl
         [DllImport("user32.dll")]
         static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
 
-        void Start()
+        void Awake()
         {
-#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE_WIN && !UNITY_EDITOR
+            Debug.Log("編輯狀態不會跑");
             IntPtr hwnd = GetActiveWindow();
 
             // 設定為 ToolWindow 且不顯示在任務列，也不出現在 ALT+TAB

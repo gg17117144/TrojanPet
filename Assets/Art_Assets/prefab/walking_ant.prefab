@@ -42,6 +42,9 @@ GameObject:
   - component: {fileID: 673999238029092640}
   - component: {fileID: 1067423211458704464}
   - component: {fileID: 1067423211458704465}
+  - component: {fileID: 2295417038708916577}
+  - component: {fileID: 752003318953772095}
+  - component: {fileID: -1457419140011358769}
   m_Layer: 0
   m_Name: walking_ant
   m_TagString: Untagged
@@ -78,7 +81,7 @@ Animation:
   m_GameObject: {fileID: 148994893479148954}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 3023858758921979271, guid: e8e92c2760c47e64ebc5c13a251d43f5, type: 3}
+  m_Animation: {fileID: 0}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
@@ -105,6 +108,47 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &2295417038708916577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148994893479148954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.4, z: 0}
+--- !u!114 &752003318953772095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148994893479148954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bfdf35db2f5a7a459e070cff4b829bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  idleTime: 1.5
+  targetCamera: {fileID: 0}
+--- !u!114 &-1457419140011358769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148994893479148954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6578334ac1574e468a7228904a8fc6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1 &186141888043819447
 GameObject:
   m_ObjectHideFlags: 0
